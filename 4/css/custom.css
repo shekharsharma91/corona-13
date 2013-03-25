@@ -1,0 +1,113 @@
+@font-face{
+	/* call font */
+	font-family:"Economica";
+	src:url('../font/Economica.eot');
+	src:url('../font/Economica.eot?#iefix') format('embedded-opentype'),
+		url('../font/Economica.ttf') format('truetype'),
+		url('../font/Economica.svg#svgFontName') format('svg');
+	}
+
+div#overlay {
+	display: none;
+	z-index: 2;
+	background: #000;
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	top: 0px;
+	left: 0px;
+	text-align: center;
+}
+div#specialBox {
+
+	position: relative;
+	z-index: 3;
+		Width:100%;
+	height:100%;
+
+	z-index:9998;zoom:1;filter:alpha(opacity=80);opacity:0.80;
+}
+div#specialBoxG {
+	
+	display: none;
+	position: relative;
+	z-index: 3;
+		Width:100%;
+	height:100%;
+	
+	background:-webkit-gradient(radial,50% 0,1000,50% 0,100,from(#666),to(#CCC));
+    background:-moz-radial-gradient(50% 0 0deg, ellipse farthest-corner, #666, #494949);
+	background-color:#666;display:none;position:absolute;top:0;left:0;
+	z-index:9998;zoom:1;filter:alpha(opacity=90);opacity:0.90;
+}
+div#specialBoxC {
+	display: none;
+	position: relative;
+	z-index: 3;
+		Width:100%;
+	height:100%;
+	
+	background:-webkit-gradient(radial,50% 0,1000,50% 0,100,from(#666),to(#CCC));
+    background:-moz-radial-gradient(50% 0 0deg, ellipse farthest-corner, #666, #494949);
+	background-color:#666;display:none;position:absolute;top:0;left:0;
+	z-index:9998;zoom:1;filter:alpha(opacity=80);opacity:0.80;
+}
+div#specialBoxR{
+	display: none;
+	position: relative;
+	z-index: 3;
+		Width:100%;
+	height:100%;
+	
+	background:-webkit-gradient(radial,50% 0,1000,50% 0,100,from(#666),to(#CCC));
+    background:-moz-radial-gradient(50% 0 0deg, ellipse farthest-corner, #666, #494949);
+	background-color:#666;display:none;position:absolute;top:0;left:0;
+	z-index:9998;zoom:1;filter:alpha(opacity=80);opacity:0.80;
+}
+div#specialBoxS {
+	display: none;
+	position: relative;
+	z-index: 3;
+		Width:100%;
+	height:100%;
+	
+	background:-webkit-gradient(radial,50% 0,1000,50% 0,100,from(#666),to(#CCC));
+    background:-moz-radial-gradient(50% 0 0deg, ellipse farthest-corner, #666, #494949);
+	background-color:#666;display:none;position:absolute;top:0;left:0;
+	z-index:9998;zoom:1;filter:alpha(opacity=80);opacity:0.80;
+}
+div#wrapper1 {
+	position:absolute;
+	top: 0px;
+	left: 0px;
+	Width:100%;
+	height:100%;
+}
+.entery {
+	-moz-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	box-shadow:inset 0px 1px 0px 0px #ffffff;
+	background-color:transparent;
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;
+	border-radius:10px;
+	border:1px solid #dcdcdc;
+	display:inline-block;
+	color:#ffffff;
+	font-family:"Economica";
+	font-size:17px;
+	font-weight:normal;
+	padding:6px 76px;
+	text-decoration:none;
+	text-shadow:6px 1px 50px #ffffff;
+	margin-left: 30%;
+}.entery:active {
+	position:relative;
+	top:1px;
+}
+.gplus-container {
+    display: none;
+    position: absolute;
+    top: 2%;
+    left: 97%;
+}
