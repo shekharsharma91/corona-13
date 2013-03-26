@@ -34,7 +34,6 @@ DEVELOPERS
 ==========
 
 SHEKHAR SHARMA ( ROOT/LEVEL 1 DEVELOPER)
-=======================================
 
 ANUJ AGARWAL (LEVEL 2 DEVELOPER)
 
