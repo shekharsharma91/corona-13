@@ -19,6 +19,9 @@ sponsors: this directory consists the easiest way to add as much as sponsors you
 
 Register: This directory consists registration page , the response of which is handled by register.php and sent to database. Just add the basic details of database in config.php
 
+Social : This directory is for naming developers 
+
+
 
 SUPPORT
 =========
