@@ -102,7 +102,6 @@ array('city','Media Partner Of corona13. Cityplus is a new venture of Jagran Pra
 		
         <?php
 			
-			// Looping through the array:
 			
 			foreach($sponsors as $company)
 			{
@@ -116,9 +115,7 @@ array('city','Media Partner Of corona13. Cityplus is a new venture of Jagran Pra
 						<div class="sponsorDescription">
 							'.$company[1].'
 						</div>
-						<div class="sponsorURL">
-							<a href="'.$company[2].'" target="_blank">'.$company[2].'</a>
-						</div>
+					
 					</div>
 				</div>
 				
